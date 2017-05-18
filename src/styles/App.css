@@ -1,0 +1,62 @@
+/* Base Application Styles */
+body,html{
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  overflow: hidden;
+}
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+
+.transitionWrapper-appear {
+  opacity: 0.01;
+  margin-left: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+
+}
+
+.transitionWrapper-appear.transitionWrapper-appear-active {
+  margin-left: 0px;
+  opacity: 1;
+}
+
+
+.transitionWrapper-enter {
+  opacity: 0.01;
+  margin-left: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.transitionWrapper-enter.transitionWrapper-enter-active {
+  margin-left: 0px;
+  opacity: 1;
+}
+
+.transitionWrapper-leave {
+  opacity: 1;
+  margin-left: 0px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.transitionWrapper-leave.transitionWrapper-leave-active {
+  margin-left: -100%;
+  opacity: 0.01;
+}
+
+.transitionWrapper-Page{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.vertical-center{
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

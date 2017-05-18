@@ -1,0 +1,361 @@
+.login{
+    margin-top: 0.1rem;
+}
+.login-input{
+    background-color: white;
+    margin: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-radius: 15px;
+
+}
+.login-warp{
+    margin: auto 0.5rem;
+}
+
+.bg-page{
+    background-color: white;
+}
+.register-btn{
+    margin-top: 1rem;
+}
+.forgot-page{
+    margin: auto 0.5rem;
+    border-radius: 15px;
+}
+.forgot-btn{
+    margin-top: 0.4rem;
+}
+.forgot-note{
+    color: #928b8b;
+    font-size: 0.9em;
+}
+.vertical-center-forgot{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-70%);
+    -moz-transform: translateY(-70%);
+    -ms-transform: translateY(-70%);
+    -o-transform: translateY(-70%);
+    transform: translateY(-70%);
+}
+.images{
+    width: 100%;
+    height: 100%;
+}
+.avatar{
+    border-radius: 50%;
+    padding: 5px;
+    border: solid 1px #928b8b;
+
+}
+.card-img{
+    margin: auto;
+    width: 25%;
+    height: 25%;
+}
+.card-pane{
+    margin: 0.2rem auto;
+    text-align: center;
+}
+.card-tag{
+    text-align: center;
+    font-size: 0.8em;
+    color: #928b8b;
+}
+
+.card-name{
+    font-size: 1.1em;
+    margin-right: 5px;
+}
+.card-sex{
+    width: 38px;
+    height: 38px;
+}
+.card-money{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+}
+.list-image .am-list-thumb>img{
+    width: 150px;
+    height: 150px;
+}
+
+.list-type{
+    font-size: 0.8em;
+    margin: 5px 0 ;
+    color: #928b8b;
+}
+.recommend-image img{
+    width: 150px;
+    height: 150px;
+}
+.recommend-level{
+    font-size: 0.8em;
+}
+.my-carousel {
+    background: #fff;
+}
+.my-carousel a {
+    display: inline-block;
+    width: 100%;
+    margin: 0; padding: 0;
+}
+.my-carousel a img {
+    width: 100%;
+    vertical-align: top;
+}
+.my-carousel .v-item {
+    height: 400px;
+}
+.list-content-avatar{
+    width: 13%;
+}
+.list-content-avatar>img{
+    border-radius: 50%;
+}
+.list-content-personal>div{
+    float: left;
+    padding-top: 10px;
+}
+.list-content-personal:after{
+    content:" ";
+    clear: both;
+    display: block;
+}
+.list-content-image{
+    width: 100%;
+}
+.list-content-image:after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+.list-content-image>img{
+    width: 25%;
+    padding: 10px;
+}
+
+.list-content-personal-message p{
+    margin: 0;
+    padding-left: 15px;
+}
+.list-content-author{
+    padding-top: 10px;
+    font-size: 1.2em;
+    color: red;
+}
+.list-content-time{
+    color: #928b8b;
+    font-size: 0.8em;
+
+}
+.list-content-content{
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #292929;
+}
+.list-content-btn{
+    border-top:solid 1px #dddddd;
+}
+.list-content-btn:after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+.list-content-btn div{
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-size: 0.9em;
+    padding-top: 10px;
+    color: #928b8b;
+}
+.list-content-btn span{
+    position: relative;
+    top:-10px;
+    padding-left: 15px;
+}
+.border-right{
+    border-right: solid 1px #dddddd;
+}
+.complain input{
+    height: 30px;
+    width: 30px;
+}
+.publish{
+    position: fixed;
+    bottom: 20%;
+    right: 50px;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(210, 120, 120, 0.55);
+    box-shadow: #292929 0 0 0.4rem;
+    border: solid 5px rgba(255, 255, 255,0.55);;
+    border-radius: 50%;
+}
+.images-title{
+    color: #928b8b;
+    padding-left:0px 15px;
+    margin: 10px auto 0px;
+}
+.tag-title{
+    color: #928b8b;
+    padding-left: 15px;
+    font-size: 0.8em;
+}
+.ch-card-img{
+    height: 15%;
+    width: 15%;
+    margin: auto;
+}
+
+.ch-card-name{
+    font-size: 1em;
+}
+.ch-card-sex .card-sex{
+    width: 25px;
+    height: 25px;
+
+}
+.ch-card-pane{
+    margin: 0 auto;
+    text-align: center;
+
+}
+.tag-title{
+    margin: 0.1rem auto;
+}
+.content{
+    margin-top:1px;
+}
+.comment-btn{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    padding: 15px;
+
+}
+.comment-input{
+    border: 1px solid #928b8b;
+    border-radius: 10px;
+    width: 70%;
+    height: 50px;
+    float: left;
+    margin:5px 20px;
+}
+.comment-badge{
+    background-color: white;
+    color: #928b8b;
+    margin: 10px auto;
+    padding: 15px;
+}
+.comment-badge span{
+    margin-left: 20px;
+}
+
+.activity-cover{
+    width: 100%;
+    height: 30%;
+}
+.activity-btn{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    font-size: 1.1em;
+    text-align: center;
+    background-color: #4e35b1;
+    padding-top: 20px;
+    border-top: 1px solid #cac9c9;
+}
+.activity-btn-active{
+    background-color: #dddddd;
+    color: black;
+}
+.activity-container{
+    color: #000000;
+    font-size: 0.9em;
+}
+.activity-title{
+    color: #928b8b;
+    padding-left: 15px;
+    margin: 10px auto;
+}
+.activity-head{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px auto;
+    color: chocolate;
+}
+.activity-content{
+    padding-left: 15px;
+    margin: 0;
+}
+.recommend-header{
+    height: 30%;
+}
+.recommend-icon{
+    position: absolute;
+    top: 370px;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(134, 152, 117, 0.4);
+}
+.recommend-center>div{
+    float: left;
+}
+.recommend-center:after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.recommend-badge p{
+    margin: 10px auto;
+}
+.recommend-avatar{
+    height: 80%;
+    width: 27%;
+    padding: 10px;
+}
+.recommend-avatar>img{
+    border-radius: 50%;
+}
+
+.recommend-center{
+    margin: auto;
+    width: 50%;
+}
+.recommend-title{
+    color: #292929;
+    background-color: aliceblue;
+    font-size: 0.9em;
+    padding-left: 15px;
+    margin: 10px auto;
+}
+.recommend-img>img{
+    padding-left: 15px;
+    width: 230px;
+    height: 500px;
+}
+.recommend-text{
+    color: #928b8b;
+    padding:15px;
+    font-size: 0.8em;
+}
+.comment-talk{
+    color:#928b8b;
+    background-color: #e6e5e5;
+    font-size: 0.8em;
+    padding: 10px;
+    border-radius: 15px;
+    width: auto;
+}
+.tag-badge{
+  padding: 0px 25px;
+}
+.tag-badge-icon{
+  width: 20%;
+}

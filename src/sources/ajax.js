@@ -19,6 +19,24 @@ export let postFetch = async (url, body) => {
     console.log(err)
   }
 };
+//非简单请求用例
+export let jsonFetch = async (url, body) => {
+    try {
+        let response = await fetch(url, {
+            method: 'POST',
+            mode: 'cors',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body:JSON.stringify(body)
+        });
+        let json = await response.json();
+        return json;
+    }
+    catch (err) {
+        console.log(err)
+    }
+};
 
 export let formFetch = async (url, body) => {
   try {
@@ -57,8 +75,7 @@ let format = (body) => {
   for (name in body) {
     str += name +'='+ body[name]+'&';
   }
-  str.substr(0,str.length-1);
-  console.log(str);
+  str = str.substr(0,str.length-1);
   return str;
 };
 

@@ -34,7 +34,7 @@ const gridData = [
     },
 
     {
-        url: '/select/comment',
+        url: '/settings',
         icon: require('../images/personal/set.png'),
         text: '我的设置'
     },

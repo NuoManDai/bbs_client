@@ -23,7 +23,9 @@ import RecommendDetails  from './containers/RecommendDetails';
 import PersonalList from './containers/PersonalList';
 import PersonalComment from './containers/PersonalComment';
 import SecurityCenter from './components/SecurityCenter';
-import passwordUpdate from './containers/passwordUpdate';
+import PasswordUpdate from './containers/PasswordUpdate';
+import Settings from './containers/Settings';
+
 // Render the main component into the dom
 ReactDOM.render(
     <Provider store={store}>
@@ -40,8 +42,9 @@ ReactDOM.render(
                 <Route path='/recommendDetails' component={RecommendDetails}/>
                 <Route path='/personalList' component={PersonalList}/>
                 <Route path='/personalComment' component={PersonalComment}/>
-              <Route path='/SecurityCenter' component={SecurityCenter}/>
-              <Route path='/passwordUpdate' component={passwordUpdate}/>
+                <Route path='/securityCenter' component={SecurityCenter}/>
+                <Route path='/passwordUpdate' component={PasswordUpdate}/>
+                <Route path='/settings' component={Settings}/>
             </Route>
         </Router>
     </Provider>

@@ -5,7 +5,7 @@ import React,{Component} from 'react';
 import {List,NavBar,Toast,InputItem } from 'antd-mobile';
 import {URL} from '../actions/actions';
 import {postFetch} from '../sources/ajax';
-export default class MainPage extends Component{
+export default class PasswordUpdate extends Component{
   constructor(props){
     super(props)
     this.state={
